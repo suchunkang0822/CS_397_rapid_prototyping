@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "rbx": "^2.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -30,6 +31,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
     "typescript": "^3.6.3"
   }
 }
